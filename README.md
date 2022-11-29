@@ -21,7 +21,7 @@
 
 
 ### 3. Implementação do Docker:
- * Para criar o docker foi implementado um Dockerfile para construir a imagem do servidor python, usando a porta escolhida em aula, que foi a porta 61021.
- * o comando usando para gerar a imagem foi "$~ docker build -t servrob ."
- * Após criar a imagem usei o comando  "$~ docker run -d -p 61021:61000 -it --rm --name servR servrob "
+ * #### Para criar o docker foi implementado um Dockerfile para construir a imagem do servidor python, usando a porta escolhida em aula, que foi a porta 61021.
+ * #### o comando usando para gerar a imagem foi "$~ docker build -t servrob ."
+ * #### Após criar a imagem usei o comando  "$~ docker run -d -p 61021:61000 -it --rm --name servR servrob "
 
